@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  background: #fff;
+  color: #232323;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+/******* HEADER  *****/
+header {
+  background: #1a1a1a;
+  padding: 20px;
+  display: flex;
+  color: #f0eff5;
+}
+
+header a {
+  color: #f0eff5;
+  text-decoration: none;
+  list-style: none;
+}
+
+header a:hover{
+  color: #fd878e;}
+
+.header_logo{
+  text-align: left;
+  font-size: 1.5em;
+  font-family: 'Quicksand';
+  padding: 0 20px;
+}
+nav {
+  float: right;
+}
+
+header li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+
+/******  MAIN *****/
+
+h1,h2, h3 {
+  font-family: 'Quicksand';
+  margin: 0;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #000;
+  padding: 1em;
+  font-weight: bold;
+}
+
+.purplebox{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  top: 20px;
+  padding: 2em;
+  background: linear-gradient(to bottom right, #c26bd6 0%, #3123ae 100%);
+}
+
+.purplebox h1{
+  color: #f0eff5;
+  padding: 1em;
+  font-size: 5em;
+
+}
+
+.purplebox h2{
+  opacity: .7;
+  color: #fd878e;
+  font-size: 2.2em;
+
+}
+
+img{
+    width: 50%;
+}
+
+.gray-block {
+  background-color: #f0eff5;
+}
+
+button.purple{
+  text-align:center;
+  background-color: #7952B3;
+  border-color: #7952B3;
+  color: #ffffff;
+  letter-spacing: 1.5px;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+
+button.purple a{
+  color: #fff;
+  text-decoration: none;
+}
+footer{
+  background: #1a1a1a;
+  padding: 20px;
+  color: #f0eff5;
+}
+
+footer ul li{
+  list-style: none;
+}
+
+
