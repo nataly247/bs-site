@@ -7,7 +7,8 @@
 }
 
 body {
-
+  max-width: 1080px;
+  margin: auto;
   background: #fff;
   color: #232323;
   font-family: 'Roboto', sans-serif;
@@ -87,11 +88,11 @@ h3 {
 }
 
 img{
-    width: 50%;
+    width: 80%;
 }
 
 .gray-block {
-  background-color: #f0eff5;
+  background-color: #f8f8f8;     /*  #f0eff5; */
 }
 
 button.purple{
@@ -108,14 +109,38 @@ button.purple a{
   color: #fff;
   text-decoration: none;
 }
+
+.content{
+  padding: 20px;
+}
+
+.content-two-part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+}
+
+
+.content-three-part{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: auto;
+}
+
 footer{
   background: #1a1a1a;
   padding: 20px;
   color: #f0eff5;
+  text-align: left;
+}
+
+footer h4{
+  padding: 10px;
 }
 
 footer ul li{
   list-style: none;
+  text-align: left;
 }
 
 
